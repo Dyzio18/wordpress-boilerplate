@@ -1,0 +1,26 @@
+.article{
+
+    max-width: 860px;
+    box-sizing: border-box;
+    padding-left: 20px; 
+    padding-right: 20px;
+    margin-top: 120px;
+    margin-right: auto;
+    margin-left: auto;
+
+    p {
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: $sm2) {
+    .article{
+        padding-left: 5px; 
+        padding-right: 5px;
+
+        p {
+            margin-top: 21px;
+        }
+
+    }
+}
